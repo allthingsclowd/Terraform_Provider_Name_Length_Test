@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -x
 
+go get ./...
+
 export TERRAFORM_PROVIDER_NAME_TO_TEST="terraform-provider-example-with-a-really-long-name"
 
 # Show file layout
